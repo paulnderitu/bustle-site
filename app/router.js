@@ -16,6 +16,15 @@ Router.map(function() {
   this.route('privacy');
   this.route('dcma');
   this.route('contacts');
+  this.route('homepage');
+  this.route('news');
+  this.route('entertainment');
+  this.route('beauty');
+  this.route('fashion');
+  this.route('lifestyle');
+  this.route('books');
+  this.route('tech');
+  this.route('flowcharts');
 });
 
 export default Router;

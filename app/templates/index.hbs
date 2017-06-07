@@ -3,6 +3,19 @@
 
 Qui mutat pericula ei, lorem adipiscing in vim, at habeo reque meliore vis. Mea in magna option, ut mel affert regione. Ei tantas tractatos interpretaris vel, nibh justo vim et. Mel case luptatum gloriatur ea.</p>
 
+
+<ul>
+  {{#each model as |news|}}
+  <li>{{news.title}} By {{news.author}} published on {{news.date}}</li>
+{{/each}}  
+</ul>
+
+
+
+
+
+
+
 <ul>
   <li>{{#link-to 'contacts'}}contact us{{/link-to}}</li>
   <li>{{#link-to 'about'}}about{{/link-to}}</li>
